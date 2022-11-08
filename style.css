@@ -20,7 +20,7 @@ body {
 .kucing {
     position: relative;
     top: 150px;
-    left: 50px;
+    left: 75px;
 }
 
 .muka {
@@ -149,10 +149,14 @@ body {
     height: 150px;
     transform: rotate(120deg);
 }
-.paw-fl:hover {
-    transition: al 0.2s ease-in-out;
+/* .paw-fl:hover {
+    transition: all 0.2s ease-in-out;
     transform: rotate(90deg);
 }
+.paw-fl: {
+    transition: all 0.2s ease-in-out;
+    transform: rotate(90deg);
+} */
 
 .paw-fr {
     top: -50px;

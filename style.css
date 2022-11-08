@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    /* background-color: #a2d594; */
+    background-color: #a2d594;
 }
 
 .container {
@@ -18,10 +18,9 @@ body {
 }
 
 .kucing {
-    position: absolute;
-    margin: auto;
+    position: relative;
     top: 150px;
-    left: 75px;
+    left: 70px;
 }
 
 .muka {

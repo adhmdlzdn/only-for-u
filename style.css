@@ -1,13 +1,13 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #a2d594;
+    background-color: #0f0f0f;
 }
 
 .container {
     height: 500px;
     width: 350px;
-    background-color: #a2d594;
+    background-color: #0f0f0f;
     position: absolute;
     margin: auto;
     top: 0;
@@ -127,6 +127,34 @@ body {
     bottom: 10px;
 }
 
+.st1, .st3 {
+    height: 20px;
+    width: 10px;
+    background-color: #b14505;
+    position: relative;
+    border-radius: 0 0 50px 50px;
+}
+
+.st1 {
+    bottom: 168px;
+    left: 47px;
+}
+
+.st2 {
+    height: 30px;
+    width: 10px;
+    background-color: #b14505;
+    position: relative;
+    border-radius: 0 0 50px 50px;
+    bottom: 188px;
+    left: 70px;
+}
+
+.st3 {
+    bottom: 218px;
+    left: 93px;
+}
+
 .badan {
     background-color: #eb7c22;
     height: 120px;
@@ -184,4 +212,74 @@ body {
     top: -80px;
     left: 100px;
     border-radius: 0 20px 20px 0;
+}
+
+.bayangan {
+    background-color: rgba(248, 248, 248, 0.05);
+    height: 30px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+    z-index: -1;
+}
+
+.bulan {
+    width: 125px;
+    height: 125px;
+    background-color: #fbfbfb;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.bintik1, .bintik2 {
+    width: 30px;
+    height: 30px;
+    background-color: #e2d5e7;
+    border-radius: 50%;
+    position: relative;
+}
+
+.bintik1 {
+    left: 20px;
+    top: 65px;
+}
+
+.bintik2 {
+    left: 65px;
+    top: -10px;
+}
+
+.bintik3, .bintik4, .bintik5, .bintik6 {
+    width: 10px;
+    height: 10px;
+    background-color: #e2d5e7;
+    border-radius: 50%;
+    position: relative;
+}
+
+.bintik3 {
+    left: 90px;
+    top: 10px;
+}
+
+.bintik4 {
+    left: 20px;
+    bottom: 30px;
+}
+
+.bintik5 {
+    left: 65px;
+    top: 15px;
+}
+
+.bintik6 {
+    left: 57px;
+    bottom: 35px;
+}
+@media screen and (max-width: 767px) {
+    .kucing {
+        top: 200px;
+    }
 }

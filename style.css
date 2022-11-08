@@ -1,0 +1,183 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #a2d594;
+}
+
+.container {
+    height: 500px;
+    width: 350px;
+    background-color: #a2d594;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.kucing {
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+
+.muka {
+    background-color: #eb7c22;
+    height: 90px;
+    width: 150px;
+    border-radius: 30px;
+}
+
+.kuping-l, .kuping-r {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #eb7c22;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: relative;
+    z-index: -1;
+}
+
+.kuping-l {
+    bottom: 35px;
+    transform: rotate(-30deg);
+}
+
+.kuping-r {
+    bottom: 85px;
+    left: 110px;
+    transform: rotate(30deg);
+}
+
+.dalem-l {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #d36149;
+    border-left: 25px solid transparent;
+    right: 25px;
+    position: relative;
+}
+
+.dalem-r {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #d36149;
+    border-right: 25px solid transparent;
+    position: relative;
+}
+
+.mata-l, .mata-r {
+    background-color: #ffffff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.mata-l {
+    bottom: 75px;
+    left: 30px;
+}
+
+.mata-r {
+    bottom: 105px;
+    left: 90px;
+}
+
+.bolamata {
+    background-color: #262626;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+.idung {
+    height: 0;
+    width: 0;
+    border-top: 8px solid #d36149;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: relative;
+    bottom: 110px;
+    left: 68px;
+}
+
+
+.l1, .l2 {
+    background-color: #d36149;
+    height: 8px;
+    width: 1px;
+    position: relative;
+}
+
+.l1 {
+    transform: rotate(45deg);
+    right: 4px;
+    bottom: 1px;
+}
+
+.l2 {
+    transform: rotate(-45deg);
+    left: 3px;
+    bottom: 10px;
+}
+
+.badan {
+    background-color: #eb7c22;
+    height: 120px;
+    width: 130px;
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+    border-radius: 0 65px 0 20px;
+}
+.paw-l, .paw-r, .paw-fl, .paw-fr {
+    background-color: #eb7c22;
+    /* height: 10px; */
+    width: 22px;
+    position: relative;
+    border-radius: 0 0px 10px 10px;
+}
+
+.paw-fl {
+    top: -50px;
+    height: 150px;
+    transform: rotate(120deg);
+}
+.paw-fl:hover {
+    transition: al 0.2s ease-in-out;
+    transform: rotate(90deg);
+}
+
+.paw-fr {
+    top: -50px;
+    height: 10px;
+    left: 80px;
+}
+
+.paw-l {
+    left: 30px;
+    top: 120px;
+    height: 10px;
+}
+
+.paw-r {
+    top: 110px;
+    height: 10px;
+    left: 60px;
+}
+
+.buntut {
+    background-color: #eb7c22;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: -80px;
+    left: 100px;
+    border-radius: 0 20px 20px 0;
+}
